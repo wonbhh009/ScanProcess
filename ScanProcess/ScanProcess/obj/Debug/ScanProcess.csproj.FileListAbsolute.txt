@@ -1,0 +1,6 @@
+F:\韩笑菲\probject\ScanProcess\ScanProcess\bin\Debug\ScanProcess.exe.config
+F:\韩笑菲\probject\ScanProcess\ScanProcess\bin\Debug\ScanProcess.exe
+F:\韩笑菲\probject\ScanProcess\ScanProcess\bin\Debug\ScanProcess.pdb
+F:\韩笑菲\probject\ScanProcess\ScanProcess\obj\Debug\ScanProcess.csprojResolveAssemblyReference.cache
+F:\韩笑菲\probject\ScanProcess\ScanProcess\obj\Debug\ScanProcess.exe
+F:\韩笑菲\probject\ScanProcess\ScanProcess\obj\Debug\ScanProcess.pdb

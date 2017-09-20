@@ -1,0 +1,6 @@
+F:\韩笑菲\probject\ScanProcess\ScanProcess\bin\Release\ScanProcess.exe.config
+F:\韩笑菲\probject\ScanProcess\ScanProcess\bin\Release\ScanProcess.exe
+F:\韩笑菲\probject\ScanProcess\ScanProcess\bin\Release\ScanProcess.pdb
+F:\韩笑菲\probject\ScanProcess\ScanProcess\obj\Release\ScanProcess.csprojResolveAssemblyReference.cache
+F:\韩笑菲\probject\ScanProcess\ScanProcess\obj\Release\ScanProcess.exe
+F:\韩笑菲\probject\ScanProcess\ScanProcess\obj\Release\ScanProcess.pdb
