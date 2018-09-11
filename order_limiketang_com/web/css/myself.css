@@ -1,0 +1,143 @@
+/* 面板
+------------------------------------------------------------*/
+body{
+	font-family: Microsoft Yahei;
+}
+/* 空面板 */
+.panel-empty{
+	position: relative;
+	margin-bottom: 20px;
+	border:none;
+}
+.panel-empty:before,
+.panel-empty:after {
+ 	content: " ";
+ 	display: table;
+}
+.panel-empty:after {
+ 	clear: both;
+}
+.panel-empty p{
+	text-align: center;
+	font-size: 20px;
+	padding:100px 50px;
+	color: #ccc;
+}
+/* 单行 */
+.rowSingle{
+
+}
+.rowSingle td{
+	vertical-align: middle !important;
+}
+/*=S 重写部份*/
+.breadcrumb span{
+    color: #777;
+}
+/*=E 重写部份*/
+/* 半透明的遮罩层 */
+#overLayer {
+    background: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display:none;
+}
+#overLayer_tips{
+	position: absolute;
+	top:0;
+	left:0;
+	background:#FFF;
+	border-radius: 5px;
+	padding:5px 15px;
+	line-height: 24px;
+	font-size: 16px;
+	z-index: 101;
+}
+.alert-danger{
+	font-size:16px;
+}
+
+.bg-red{
+	color:#FFFFFF;
+	background:#e4393c;
+	border:#e4393c 1px solid;
+}
+/* 在div项目或表格的td中mouseOver时出现手形 */
+.hasHand{
+	cursor: pointer;
+	line-height: 34px;
+}
+.tdHand{
+	cursor: pointer;
+}
+.tdHand:hover{
+	background-color:#eee;
+}
+.panelLoading{
+	display: block;
+	padding: 50px;
+	margin: auto;
+	text-align: center;
+}
+/* 页头page-header中的标题进行margin缩减 */
+.page-header{
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+.page-header h3{
+	margin:0;
+}
+.btnLinkWithIcon{
+	display: flex;
+	margin-top:9px;
+	padding: 3px 0;
+}
+.btnLinkWithIcon img{
+	width: 16px;
+	height: 16px;
+}
+.btnLinkWithIcon a,.btnLinkWithIcon span{
+	margin-left: 5px;
+	font-size: 14px;
+	line-height: 14px;
+	color: #666;
+	margin-top: 2px;
+}
+.btnLinkWithIcon:hover span{
+	color:#337ab7;
+}
+.btn-gap-right{
+	margin-right: 10px;
+}
+/*表格底色*/
+.bg-highlight{
+	background-color:#f7f7f9
+}
+/*表单组-最后一行*/
+.form-group-last{
+	margin-bottom: 0;
+}
+/** 仅用于快速复习-富文本编辑器-下接框 */
+.comboTalk2{
+	width: 180px !important;
+	height: 180px !important;
+	line-height: 20px !important;
+}
+/* 页脚 */
+.footer{
+	padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+    bottom:0px;
+    width: 100%;
+}
